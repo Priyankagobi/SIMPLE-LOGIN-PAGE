@@ -1,53 +1,15 @@
-*{
-    box-sizing:border-box;
+.row{
+    text-align: center;
+    margin-top: -100px;
 }
 
-head {
-    margin: 0;
-    font-family: "Times New Roman";
-}
-
-.container {
-    width: 100%;
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
-.top-wrapper {
-    padding: 180px 0 100px 0;
-    background-size: cover;
-    color: #ff0000;
+.login-box h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #0e153a;
     text-align: center;
 }
 
-.top-wrapper h1 {
-    font-size: 45px;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
-}
-
-.top-wrapper p {
-    margin-bottom: 3px;
-}
-
-header {
-    background-image: url();
-}
-
-.lesson-wrapper {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 80px;
-    background-color: #f7f7f7;
-    text-align: center;
-}
-
-.lesson-wrapper h2 {
-    font-size: 20px;
-}
-
-.message-wrapper h3{
-    text-align: center;
-    padding-bottom: 80px;
-    border-bottom: 1px solid #eee;
-}
+.login_box .user_box{
+    position: relative;
+}    
